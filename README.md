@@ -2,7 +2,7 @@
 
 Machine learning project to predict hotel Average Daily Rate (ADR) using booking and customer data, helping hotels make data-driven pricing decisions.
 
-Completed as an individual assignment for BAA5053 – Machine Learning for Business Decisions at Sunway University (October 2025).
+Completed as an individual assignment for BAA5053 - Machine Learning for Business Decisions at Sunway University (October 2025).
 
 ## Model Results
 
