@@ -6,14 +6,14 @@ Predicting hotel Average Daily Rate (ADR) from 6,630 bookings to support pricing
 
 | Model | RMSE | MAE | R² |
 |---|---|---|---|
-| Linear Regression | 44.22 | 27.85 | 0.95 |
-| Random Forest | 36.08 | 21.50 | 0.97 |
-| **Gradient Boosting** | **36.05** | **20.84** | **0.97** |
+| Linear Regression | 41.17 | 26.24 | 0.96 |
+| Random Forest | 37.87 | 20.70 | 0.96 |
+| **Gradient Boosting** | **33.80** | **19.15** | **0.97** |
 
 ## Key Findings
-- Strongest predictors: Competitor Average Rate, Star Rating, Total Spend and Review Score
+- Strongest predictors: Competitor Average Rate, Star Rating and Review Score
+- Data cleaning: standardised inconsistent text categories, removed duplicate bookings and rows with missing ADR
 - Engineered features: guest nights, last-minute booking flag and customer age groups
-
-**Note:** Total Spend partly includes the room rate, which inflates R². Next step is to remove it and re-run.
+- Total Spend, Extra Spend and Satisfaction Rating were excluded from modelling as they are only known after the stay
 
 **Tech:** Python, Scikit-learn, Pandas, Matplotlib, Seaborn
